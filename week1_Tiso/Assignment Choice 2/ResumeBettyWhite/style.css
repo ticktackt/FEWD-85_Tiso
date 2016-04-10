@@ -1,0 +1,35 @@
+body {
+	background-color: #404040;
+	border: 5px solid #5F5D5D;
+	margin: 25px;
+	padding: 40px;
+}
+h1 {
+	color: white;
+	font-size: 40px;
+	text-align: center;
+	font-style: italic;
+	font-family: serif;
+}
+ 
+nav {
+	text-align: center;
+	font-family: sans-serif;
+
+}
+a, span {
+	font-size: 20px;
+	font-weight: bold;
+}
+a {
+	color: #26D8A1;
+	
+}
+span {
+	color: white;
+	
+}
+footer {
+	font-family: sans-serif;
+	text-align: center;
+}
