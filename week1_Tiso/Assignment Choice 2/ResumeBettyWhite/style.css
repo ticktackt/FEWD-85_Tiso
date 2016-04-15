@@ -29,10 +29,27 @@ span {
 	color: white;
 	
 }
-footer {
+footer, a {
 	font-family: sans-serif;
 	text-align: center;
+	font-size: 18px;
 }
 h4 {
+	font-weight: bold;
+}
+
+p, h2 {
+	color: white;
+	font-family: serif;
+	font-size: 18px;
+}
+ h2	{
+ 	font-size: 26px;
+ 	font-weight: bold;
+ 	font-family: sans-serif;
+ }
+h3, li {
+	color: #bfbfbf;
+	font-size: 18px;
 	font-weight: bold;
 }
