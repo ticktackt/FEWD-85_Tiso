@@ -48,10 +48,10 @@ p, h2 {
  	font-weight: bold;
  	font-family: sans-serif;
  }
-h3, li {
+li {
 	color: #bfbfbf;
 	font-size: 16px;
-	font-family: sans-serif;
+	font-family: serif;
 }
 img {
 	float: right;
@@ -64,5 +64,13 @@ img {
 
  div, .jobrole {
  	color: white;
+ 	font-family: sans-serif;
 
  }
+ h3 {
+ 	color: #bfbfbf;
+	font-size: 16px;
+	font-family: sans-serif;
+
+ }
+
