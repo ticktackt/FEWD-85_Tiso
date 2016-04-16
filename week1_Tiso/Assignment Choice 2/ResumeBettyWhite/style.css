@@ -1,7 +1,7 @@
 body {
 	background-color: #404040;
 	border: 5px solid #5F5D5D;
-	margin: 25px;
+	margin: 35px;
 	padding: 40px;
 }
 h1 {
@@ -50,6 +50,19 @@ p, h2 {
  }
 h3, li {
 	color: #bfbfbf;
-	font-size: 18px;
-	font-weight: bold;
+	font-size: 16px;
+	font-family: sans-serif;
 }
+img {
+	float: right;
+	border: 1px solid #9E9E9E;
+	padding: 5px;
+	margin: 5px;
+	margin-left: 20px;
+
+}
+
+ div, .jobrole {
+ 	color: white;
+
+ }
