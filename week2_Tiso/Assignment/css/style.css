@@ -1,7 +1,7 @@
 /*
 Project Name: Blank Template
-Client: Your Client
-Author: Your Name
+Client: Relaxr
+Author: Stephanie Santiso
 Developer @GA in NYC
 */
 
@@ -49,7 +49,7 @@ body {
      color: #000;
      font-size: 12px;
      line-height: 1.4;
-     font-family: Helvetica, Arial, sans-serif;
+     font-family: "Open Sans", Helvetica, Arial, sans-serif;
      background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
       background-size: cover;
 }
@@ -67,7 +67,7 @@ body {
 
 }
 
-header {
+header { 
 
 }
 
