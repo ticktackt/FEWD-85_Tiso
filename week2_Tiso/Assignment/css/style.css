@@ -71,7 +71,7 @@ header {
   background-size: cover;
   height: 60%;
   min-height: 300px;
-  padding: 10px 40px;
+  padding: 15px 30px;
   background-position: 50%;
 
 }
@@ -94,15 +94,51 @@ h2 {
 }
 .cta.get {
   font-size: 14px;
-  color: #121212;
+  color: #033048;
   background: #f9e42e;
+  margin: 0 auto;
+  height: 40px;
+  width: 140px;
+  display: block;
+  padding: 10px 15px;
+
+
 
 
 }
 .cta-wrapper {
   text-align: center;
+
+
+}
+
+.title {
+  font: 600;
+  font-size: 20px;
+}
+.list {
+  font-weight: 300;
+  font-size: 13px;
+}
+.benefits {
+  padding: 15px 30px;
+  margin: 15px;
+
+}
+
+div.testimonial {
+  background-image: url(../images/testimonial_bg.jpg);
+  text-align: center;
+}
+
+.signup {
+  background-color: #f9e42e;
+  text-align: center;
+  display: block;
 }
 footer {
+  background-color: #121212;
+
 
 }
 
