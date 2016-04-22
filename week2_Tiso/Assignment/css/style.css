@@ -91,55 +91,73 @@ h2 {
 .cta {
   font-weight: 800;
   border-radius: 5px;
+  display: block;
+  margin: 0 auto;
+  width: 170px;
+  padding: 10px 15px;
+  text-align: center;
+  text-decoration: none;
 }
 .cta.get {
   font-size: 14px;
   color: #033048;
   background: #f9e42e;
-  margin: 0 auto;
-  height: 40px;
-  width: 140px;
-  display: block;
-  padding: 10px 15px;
-
-
-
-
 }
-.cta-wrapper {
-  text-align: center;
 
-
+.cta.sign {
+  font-size: 12px;
+  color: white;
+  background: #033048;
 }
+
 
 .title {
   font: 600;
   font-size: 20px;
 }
-.list {
+.list li {
   font-weight: 300;
   font-size: 13px;
 }
-.benefits {
+section.benefits {
   padding: 15px 30px;
   margin: 15px;
 
 }
 
-div.testimonial {
+section.testimonial {
   background-image: url(../images/testimonial_bg.jpg);
   text-align: center;
-}
-
-.signup {
-  background-color: #f9e42e;
+  height: 50%;
+  min-height: 200px;
   text-align: center;
-  display: block;
+  padding: 30px;
+  color: white;
+  font-weight: 300;
+  font-size: 18px;  
 }
+
+p.quoted {
+  font-weight: 600;
+}
+
+section.signup {
+  background-color: #f9e42e;
+  padding: 15px;
+}
+
 footer {
-  background-color: #121212;
+  background: #121212;
+  text-align: center;
+  padding: 20px;
+}
 
+footer h1 {
+  color: #f9e42e;
+}
 
+footer p {
+  color: white;
 }
 
 /******************************************
