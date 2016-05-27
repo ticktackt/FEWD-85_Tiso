@@ -142,11 +142,11 @@ h2 a {
   padding-left: 3px;
   font-weight: 600;
 }
-.readmore, .readless {
+.readmore {
   text-align: right;
   margin-top: 30px;
 }
-.readmore a, .readless a {
+.readmore a {
   color: #043049;
   font-weight: 600;
 }
@@ -179,13 +179,10 @@ h2 a {
 }
 #sidebar ul {
   margin-bottom: 40px;
-  list-style-type: none;
-
 }
 #sidebar ul li a {
   color: #043049;
   font-size: 24px;
-
 }
 #sidebar p {
   font-size: 22px;
@@ -223,37 +220,6 @@ footer p {
   color: #fff;
   font-weight: 600;
 }
-.hide {
-  display: none;
-}
-
-@media (max-width: 768px;) {
-.post {
-    columns: 1 200px;
- }
-  .button {
-  border-radius: 5px;
-  font-weight: 800;
-  padding: 12px 0;
-  width: 280px;
-  font-size: 28px;
-  text-align: center;
-  display: block;
-  margin: 0 auto;}
-.yellow {
-  background: #f9e42e;
-  color: #033048;}
-.blue {
-  background: #033048;
-  color: #fff;
-  font-size: 24px;}
-
-
-
-}
- 
-
-  
 
 /******************************************
 /* ADDITIONAL STYLES

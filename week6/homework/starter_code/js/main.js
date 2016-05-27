@@ -23,13 +23,10 @@ function handleReadLess(event) {
   .closest('.post')
   .find('.hide')
   .slideUp();
-  $(event.target).closest('.readmore').slideDown(); 
-
-}
+  $(event.target).closest('.readmore').slideDown();}
 
 function handleLearnMore(event) {
   event.preventDefault();
   $('#sidebar .hide').show();
-  $('.learnmore').hide();
-}
+  $('.learnmore').hide();}
 

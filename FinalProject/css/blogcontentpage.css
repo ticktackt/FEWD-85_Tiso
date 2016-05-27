@@ -1,9 +1,6 @@
-body {
-  background-image: url("../images/metrotunnels.jpg"); 
-  background-size: cover;
-  background-repeat: no-repeat;
-  min-width: 500px; 
-
+.container {
+  width: 960px;
+  margin: 0 auto;
 }
 
 
