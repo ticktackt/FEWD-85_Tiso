@@ -1,12 +1,36 @@
-.container {
-  width: 960px;
-  margin: 0 auto;
+body {
+  background-color: #FAFFF4;
+  font-size: 26px;
+  line-height: 1.4;
+  font-weight: 400;
+
+
 }
 
 
 .container {
-  width: 960px;
+  max-width: 960px;
+  width: 100%;
   margin: 0 auto;
+  padding: 0px 30px
+}
+header {
+  background: #1C2623;
+  padding: 70px 0;
+  overflow: hidden;
+}
+
+header nav {
+  float: right;
+  margin-top: 15px;
+}
+header nav ul li {
+  display: inline-block;
+  margin: 0 0 0 40px;
+  font-size: .9em;
+}
+header nav ul li a {
+  color: #BAFCEA;
 }
 nav {
     height: 65px;
@@ -32,6 +56,30 @@ nav a {
     margin-top: 5px;
     text-shadow: 1px 1px 1px black;
     text-decoration: none;
-
-
   }
+
+  #main {
+  margin-top: 80px;
+}
+
+#posts {
+  max-width: 700px;
+  width: 70%;
+  display: inline-block;
+  margin-right: 20px;
+  vertical-align: top;
+}
+
+.post {
+  border-bottom: 1px solid #043049;
+  padding-bottom: 40px;
+  margin-bottom: 40px;
+}
+
+#party {
+    overflow: hidden;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 700px;
+    color: white;

@@ -8,8 +8,11 @@ body {
 
 
 .container {
-  width: 960px;
+  max-width: 960px;
+  width: 100%;
   margin: 0 auto;
+  padding: 0px 30px
+
 }
 nav {
     height: 65px;
