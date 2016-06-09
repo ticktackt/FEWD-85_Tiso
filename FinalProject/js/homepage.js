@@ -20,3 +20,14 @@ In order to update counters:
 
 
 */
+
+var Height = $(window).height();
+var Width = $(window).width();
+var HW = Width/Height;
+
+if(HW<1){
+      $("body").css("background-size","auto 100%");
+    }
+    else if(HW>1){
+      $("body").css("background-size","100% auto");
+    }

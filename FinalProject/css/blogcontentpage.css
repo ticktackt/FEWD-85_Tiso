@@ -149,25 +149,6 @@ h2 {
   margin-top: 50px;
 }
 
-footer {
-  background: #121212;
-  padding: 65px 0 45px;
-  text-align: center;
-}
-footer .logo {
-  color: #f9e42e;
-  margin-bottom: 68px;
-}
-footer ul li {
-  display: inline-block;
-  list-style: none;
-  margin: 0 26px 75px;
-}
-footer p {
-  font-size: 18px;
-  color: #fff;
-  font-weight: 600;
-}
 .hide {
   display: none;
 }
@@ -175,23 +156,5 @@ footer p {
 .post {
     columns: 1 200px;
  }
-  .button {
-  border-radius: 5px;
-  font-weight: 800;
-  padding: 12px 0;
-  width: 280px;
-  font-size: 28px;
-  text-align: center;
-  display: block;
-  margin: 0 auto;}
-.yellow {
-  background: #f9e42e;
-  color: #033048;}
-.blue {
-  background: #033048;
-  color: #fff;
-  font-size: 24px;}
+  
 
-
-
-}
