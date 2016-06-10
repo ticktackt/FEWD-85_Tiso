@@ -103,7 +103,7 @@ header nav ul li {
     font-family: 700"PT+Serif";
     font-weight: 400italic;
 }
-.jumbotron, article {
+.jumbotron, .about {
   animation: slideIn 1s linear, fadeIn 3s ease-in;}
 }
 @keyframes slideIn {
