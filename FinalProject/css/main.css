@@ -62,9 +62,13 @@ background-color:#F2E9DD;
     text-decoration: none;
     letter-spacing: 2px;
   }
-#navbar a:hover {
+#navbar a:hover, #navbar a:focus {
   color: #37FD78;
   text-decoration: none;
+}
+
+#navbar a:active {
+  color: red;
 }
 
 header nav ul li {
@@ -152,14 +156,27 @@ footer p {
 }
   
 
-  @media (min-width: 768px){
-    .jumbotron {
+@media (min-width: 768px){
+  .jumbotron {
     padding-top: 48px;
     padding-bottom: 48px;
-}
+  }
   body.homepage {
     width:100%;
     background-size: cover;  
   }
 }
+
+
+@media (max-width: 768px){
+  #navbar {
+    background: #080808;
+    max-height: none;
+  }
+  .nav>li {
+    float: none;
+  }
+  #navbar ul li a {
+    float: none;
+  }
 }
