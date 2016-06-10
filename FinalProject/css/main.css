@@ -22,10 +22,13 @@ body {
   height: 15vw;
   opacity: 0.9;
   text-align: center;
-  margin: 20px;
+  margin: 10px;
+  border: 2px solid #101010;
+  border-radius: 6px;
   text-shadow: .5px .5px;
   display: inline-block;
 }
+
 .container {
     display: table;
     width: 100%;
