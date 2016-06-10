@@ -1,23 +1,21 @@
 body.homepage {
-background-color:#F2E9DD;  
- background-repeat:no-repeat;
+  background-color:rgba(252, 248, 227, 0.81);  
+  background-repeat:no-repeat;
   background-size:contain;
   background-size: cover;
   width:100%;
+
 }
 
 body {
-background-color:#F2E9DD;  
-  font-size: 26px;
+  background-color:rgba(252, 248, 227, 0.81);  
+  font-size: 20px;
+  font-family:"PT+Serif";
   line-height: 1.4;
   font-weight: 400;
   background-size:contain;
   width: 100%;
-  background-size: cover;
-  background-repeat:no-repeat;
-
-
-
+  text-align-last: center;
 }
 
 .container {
@@ -27,7 +25,9 @@ background-color:#F2E9DD;
     min-height: 100%;
 
 }
-
+img {
+  width: 80%;
+}
 .navbar{
     background-color: #080808;
     border-color: #e7e7e7;
@@ -52,6 +52,7 @@ background-color:#F2E9DD;
     right: 0;
     left: 0;
     z-index: 1030;}
+
 .navbar-inverse .navbar-nav>li>a {
     float: right;
     color:#FFFFFF;
@@ -82,7 +83,7 @@ header nav ul li {
     color: white;
     margin-top: 50px;
     margin-bottom: 10px;
-    font-family: sans-serif;
+    font-family: 700"PT+Serif";
     font-weight: 400italic;
 }
 .jumbotron h1:hover{
@@ -96,6 +97,7 @@ header nav ul li {
 .container .jumbotron, .container-fluid .jumbotron {
     padding-right: 12px;
     padding-left: 60px;
+
 }
 .jumbotron {
     padding-top: 30px;
@@ -103,7 +105,20 @@ header nav ul li {
     margin-bottom: 30px;
     color: inherit;
     background-color: rgba(0,0,0,.5);
+    
 }
+article {
+  width: 100%;
+  margin: 0 auto;
+  padding: 0px 30px;
+  max-width: 600px;
+}
+article>h2 {
+  font-size: 2em;
+  font-family: "PT+Serif";
+  font-weight: bold;
+}
+
  #main {
   margin-top: 80px;
 }
@@ -117,7 +132,7 @@ header nav ul li {
 }
 
 .post {
-    background-color: rgba(0, 0, 0, 0.71);
+    background-color:rgba(0,0,0,.5);
     color: #F7F9F6;
     text-align: center;
     padding: 40px;
@@ -140,8 +155,7 @@ header nav ul li {
   padding: 65px 0 45px;
   text-align: center;
 }
-footer .logo {
-  color: #f9e42e;
+footer img .logo  {
   margin-bottom: 68px;
 }
 footer ul li {
@@ -173,10 +187,34 @@ footer p {
     background: #080808;
     max-height: none;
   }
+  #navbar a:active {
+  color: red;
+  }
   .nav>li {
     float: none;
   }
   #navbar ul li a {
     float: none;
+  }
+  body {
+    font-size: 16px;
+  }
+  .post a{
+    font-size: 26px;
+  }
+}
+@media (max-width: 320px){
+  #navbar {
+    background: #080808;
+    max-height: none;
+  }
+  #navbar a:active {
+  color: red;
+}
+  .nav>li {
+    float: none;
+  }
+  #navbar ul li a {
+    float: none;  
   }
 }
