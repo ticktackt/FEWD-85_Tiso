@@ -36,7 +36,8 @@ body {
 .post img {
   width: 40%;
   float: left;
-  padding: 20px;
+  margin: 1em;
+  border: 3px solid #101010;
 }
 
 .navbar{
@@ -172,11 +173,17 @@ article>h2 {
   }
 footer {
   background:rgba(0, 0, 0, 0.7);
-  padding: 65px 0 45px;
-  text-align: center;
+  padding: 14px 0 45px;
 }
-footer ul{
+footer ul li{
   list-style: none;
+  display: inline-block;
+  margin: 33px 10px 0px;
+}
+
+
+
+
 }
 footer img{
   width: 10%;
@@ -184,10 +191,6 @@ footer img{
   position: relative;
 }
 
-footer {
-    background: #fff;
-    padding: 30px 0 0;
-}
   
 
 @media (min-width: 768px){
