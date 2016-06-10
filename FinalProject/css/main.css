@@ -64,12 +64,7 @@ background-color:#F2E9DD;
   }
 #navbar a:hover {
   color: #37FD78;
-  font-size: 26px;
-  text-decoration:none;
-}
-  header.blogcontent {
-  background:#0F1111;
-  overflow: hidden;
+  text-decoration: none;
 }
 
 header nav ul li {
