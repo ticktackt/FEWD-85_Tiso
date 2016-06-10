@@ -15,7 +15,7 @@ body {
   padding: 0px 30px
 }
 header.blogcontent {
-  background: #1C2623;
+  background: #57534F;
   padding: 70px 0;
   overflow: hidden;
 }
@@ -30,7 +30,7 @@ header nav ul li {
   font-size: .9em;
 }
 header nav ul li a {
-  color: #BAFCEA;
+  color: #131313;
 }
 .navbar-default {
     background-color: #080808;

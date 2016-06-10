@@ -1,13 +1,13 @@
 body.homepage {
-  background-image: url("../images/bkbridge.jpg"); 
-  background-repeat:no-repeat;
+background-color:#F2E9DD;  
+ background-repeat:no-repeat;
   background-size:contain;
   background-size: cover;
   width:100%;
 }
 
 body {
-  background-image: url("../images/rails.jpg");
+background-color:#F2E9DD;  
   font-size: 26px;
   line-height: 1.4;
   font-weight: 400;
