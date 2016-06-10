@@ -95,12 +95,30 @@ header nav ul li {
   float: left;
 }
 
+
 .h1, .jumbotron h1{
     color: white;
     margin-top: 50px;
     margin-bottom: 10px;
     font-family: 700"PT+Serif";
     font-weight: 400italic;
+}
+.jumbotron, article {
+  animation: slideIn 1s linear, fadeIn 3s ease-in;}
+}
+@keyframes slideIn {
+  0% {transform: translateY(400px);
+      animation-timing-function: ease-out;}
+  60% {transform: translateY(-50px);animation-timing-function: ease-in;}
+  80% {transform: translateY(10px);
+  animation-timing-function: ease-out;}
+  100% {transform: translateY(0);
+  animation-timing-function: ease-in;}
+}
+
+@keyframes fadeIn {
+  from {opacity: 0; }
+  to {opacity: 1;}
 }
 .jumbotron h1:hover{
   transform: scale(1.5);
