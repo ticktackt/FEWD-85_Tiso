@@ -34,7 +34,7 @@ body {
 .counter .number {
   font-size: 2em;
 }
-
+ 
 .container {
     display: table;
     width: 100%;
@@ -48,7 +48,11 @@ body {
   margin: 1em;
   border: 3px solid #101010;
 }
-
+article img{
+  width: 50%;
+  float: left;
+  margin: 1em;
+}
 .navbar{
     background-color: #080808;
     border-color: #e7e7e7;
@@ -65,6 +69,10 @@ body {
   margin-bottom: 20px;
   text-decoration: none;
     /* border: 1px solid transparent; */
+}
+.navbar h1 {
+  color: white;
+  float:right;
 }
 
 
@@ -153,9 +161,10 @@ article {
   padding: 0px 30px;
   max-width: 600px;
 }
-article>h2 {
+.about>h2 {
   font-family: "PT+Serif";
   font-weight: bold;
+  font-size: 2em;
 }
 
  #main {
@@ -185,7 +194,7 @@ article>h2 {
 }
 .post a{
   color: #37FD78;
-  font-size: .8em;
+  font-size: 1.1em;
 }
 .post p{
   padding: 20px 20px;
