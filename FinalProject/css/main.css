@@ -54,7 +54,7 @@ article img{
   margin: 1em;
 }
 .navbar{
-    background-color: #080808;
+    background-color: #2f2d2d;
     border-color: #e7e7e7;
     max-height: 90px;
     min-height: 50px;
@@ -208,7 +208,7 @@ article {
     color: white;
   }
 footer {
-  background:rgba(0, 0, 0, 0.7);
+  background-color: #2f2d2d;
   padding: 14px 0 45px;
 }
 footer ul li{
